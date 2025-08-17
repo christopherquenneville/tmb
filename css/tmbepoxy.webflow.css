@@ -1,0 +1,1410 @@
+.nav-link {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 30px 10px 10px;
+  border-bottom: 1px solid #000;
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  border-width: 4px;
+  border-color: #000;
+  border-bottom-style: solid;
+}
+
+.nav-link.w--current {
+  border-width: 1px;
+  border-color: #000;
+  color: #000;
+  font-weight: 700;
+}
+
+.nav-link.w--current:hover {
+  border-width: 4px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 75px;
+  background-color: #fff;
+}
+
+.heading {
+  margin: 0px 50px 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 40px;
+  text-align: right;
+}
+
+.heading.contact {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  font-size: 38px;
+}
+
+.button {
+  width: 175px;
+  height: 50px;
+  margin-top: 80px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.button.contact {
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+.section {
+  height: 100%;
+  margin-top: 0px;
+}
+
+.heading-3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.heading-3.centered {
+  text-align: center;
+  text-decoration: none;
+}
+
+.heading-3.centered.nospace {
+  margin-top: 0px;
+}
+
+.heading-3.centered.noir {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #000;
+  font-size: 38px;
+}
+
+.paragraph {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.column-3 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.services {
+  min-height: 500px;
+  background-image: url('../images/Diapo-19-3.jpg'), -webkit-gradient(linear, left top, left bottom, from(rgba(4, 81, 132, 0.7)), to(rgba(4, 81, 132, 0.7)));
+  background-image: url('../images/Diapo-19-3.jpg'), linear-gradient(180deg, rgba(4, 81, 132, 0.7), rgba(4, 81, 132, 0.7));
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, auto;
+  background-attachment: scroll, scroll;
+}
+
+.logos {
+  height: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.6)), to(hsla(0, 0%, 100%, 0.6))), url('../images/46.jpg');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.6), hsla(0, 0%, 100%, 0.6)), url('../images/46.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+}
+
+.row-2 {
+  text-align: center;
+}
+
+.column-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 240px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column-5.half-page {
+  height: 350px;
+}
+
+.engagements {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('../images/pexels-photo-241077.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/pexels-photo-241077.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.heading-4 {
+  max-width: 1200px;
+  margin: 0px auto;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.heading-4.nospace {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.paragraph-2 {
+  display: block;
+  width: 600px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.paragraph-2.mini {
+  width: auto;
+  max-width: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.paragraph-2.nospace {
+  margin-top: 0px;
+}
+
+.paragraph-2.centered {
+  text-align: center;
+}
+
+.column-6 {
+  text-align: center;
+}
+
+.column-7 {
+  text-align: center;
+}
+
+.column-8 {
+  text-align: center;
+}
+
+.row-3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.row-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 140px;
+  margin-top: 22px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-7 {
+  min-height: 700px;
+  background-image: url('../images/light-bulb-1073052.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.row-5 {
+  height: 600px;
+}
+
+.column-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  padding-right: 50px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.column-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  padding-left: 50px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.field-label {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form {
+  text-align: left;
+}
+
+.heading-8 {
+  margin-top: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+
+.text-block-2 {
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.section-16 {
+  height: 515px;
+  margin-top: 75px;
+  background-image: url('../images/Machines.jpg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 515px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  text-align: center;
+}
+
+.section-18 {
+  min-height: 750px;
+  background-image: url('../images/Diapo-32-2-Plaza-Rive-Sud-Garage-1.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.div-block-5 {
+  text-align: center;
+}
+
+.column-31 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 750px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+  text-align: right;
+}
+
+.column-32 {
+  min-height: 750px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.column-35 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 250px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-7 {
+  margin-right: 100px;
+  margin-left: 40px;
+}
+
+.paragraph-4 {
+  display: block;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.heading-12 {
+  font-family: Lato, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.section-21 {
+  height: 400px;
+  margin-top: 100px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/46.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/46.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.section-21.www {
+  height: auto;
+  margin-top: 75px;
+}
+
+.image-31 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.image-32 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.image-33 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.image-34 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.image-35 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.image-36 {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.dropdown-link {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(180deg, #fff, #fff);
+  font-family: Lato, sans-serif;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+.dropdown-link:hover {
+  text-decoration: underline;
+}
+
+.dropdown-link.w--current {
+  color: #000;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.dropdown-list.w--open {
+  margin-top: 0px;
+  margin-left: -54px;
+}
+
+.column-79 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 75px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.div-block-33 {
+  margin-left: 50px;
+}
+
+.row-34 {
+  height: 100%;
+  background-image: url('../images/Diapo-20-2.JPG');
+  background-position: 50% 40%;
+  background-size: cover;
+}
+
+.body {
+  height: 100%;
+}
+
+.column-80 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 500px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: right;
+}
+
+.row-35 {
+  max-width: 1200px;
+  min-height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.div-block-34 {
+  display: block;
+  max-width: 500px;
+  min-height: 420px;
+  margin: 40px auto;
+}
+
+.div-block-35 {
+  margin-right: 50px;
+  text-align: center;
+}
+
+.heading-29 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+}
+
+.heading-30 {
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.heading-30.space {
+  margin-right: 50px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.nav-menu {
+  height: 75px;
+}
+
+.facebook-3 {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  z-index: 9;
+  display: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.5)), to(hsla(0, 0%, 100%, 0.5)));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.5), hsla(0, 0%, 100%, 0.5));
+  text-align: right;
+}
+
+.a-propos {
+  background-color: #023ca7;
+}
+
+.div-block-37 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Décoratif-Flocon-bleu.JPG');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Décoratif-Flocon-bleu.JPG');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+}
+
+.columns {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+}
+
+.column-93 {
+  min-height: 400px;
+}
+
+.column-94 {
+  min-height: 400px;
+}
+
+.footeritem {
+  margin-bottom: 10px;
+}
+
+.text-block-10 {
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+}
+
+.footercont {
+  max-width: 1200px;
+  background-color: #fff;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.footer {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #fff;
+}
+
+.column-95 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.html-embed-7 {
+  display: none;
+}
+
+.column-96 {
+  padding-top: 8px;
+}
+
+.footerlink {
+  font-family: Exo, sans-serif;
+  color: grey;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footerlink:hover {
+  color: #000;
+}
+
+.text-block-11 {
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  text-align: center;
+}
+
+.columns-2 {
+  margin-top: 20px;
+}
+
+.link-2 {
+  color: #fff;
+}
+
+.bold-text {
+  font-weight: 400;
+}
+
+.bold-text-2 {
+  font-weight: 400;
+}
+
+.video-2 {
+  margin-top: 15px;
+}
+
+.tabs-2 {
+  margin-top: 15px;
+}
+
+.tab-link-tab-1 {
+  padding-right: 21px;
+  padding-left: 21px;
+  background-color: #fff;
+  color: #000;
+}
+
+.tab-link-tab-1.w--current {
+  background-color: #023ca7;
+  color: #fff;
+}
+
+.column-97 {
+  min-height: 500px;
+}
+
+.columns-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 140px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.columns-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 140px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.containdiv {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-39 {
+  min-height: 700px;
+}
+
+.div-block-40 {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-41 {
+  max-width: 1475px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-42 {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-41 {
+  margin-top: 75px;
+  background-image: url('../images/Scellant-à-béton.JPG');
+  background-position: 50% 90%;
+  background-size: cover;
+}
+
+.heading-35 {
+  margin-bottom: 20px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.heading-35.space {
+  margin-top: 50px;
+}
+
+.paragraph-19 {
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+}
+
+.div-block-44 {
+  max-width: 1475px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.column-105 {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-45 {
+  margin-top: 20px;
+}
+
+.section-43 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Diapo-32-1-Plaza-Rive-Sud-Garage--2----9000-p2.JPG');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Diapo-32-1-Plaza-Rive-Sud-Garage--2----9000-p2.JPG');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, scroll;
+}
+
+.columns-6 {
+  margin-top: 20px;
+}
+
+.columns-6._3 {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.columns-6._4 {
+  max-width: 1333px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.columns-6._2 {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div-block-46 {
+  margin-top: 20px;
+}
+
+.list-3 {
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.heading-36 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.heading-36.centered {
+  text-align: center;
+}
+
+.coldiv1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-44 {
+  margin-top: 75px;
+  background-image: url('../images/Décoratif-Flocon-bleu.JPG');
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-45 {
+  background-color: #000;
+}
+
+.section-46 {
+  margin-top: 75px;
+  background-image: url('../images/Diapo-20-2.JPG');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-47 {
+  background-color: #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/Diapo-32-1-Plaza-Rive-Sud-Garage--2----9000-p2.JPG');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/Diapo-32-1-Plaza-Rive-Sud-Garage--2----9000-p2.JPG');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.image-64 {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.link-3 {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.column-106 {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .nav-link {
+    display: block;
+  }
+  .nav-link.w--current {
+    display: block;
+  }
+  .navbar {
+    height: 60px;
+  }
+  .heading {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .section {
+    height: 600px;
+    margin-top: 60px;
+  }
+  .heading-3.centered {
+    margin-top: 0px;
+  }
+  .services {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .logos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .column-5.half-page {
+    height: 175px;
+  }
+  .engagements {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .paragraph-2.nospace {
+    width: 400px;
+  }
+  .column-9 {
+    padding-right: 30px;
+  }
+  .column-10 {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .section-16 {
+    max-height: 275px;
+    margin-top: 60px;
+  }
+  .container-8 {
+    max-height: 275px;
+    max-width: 600px;
+  }
+  .div-block-7 {
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .section-21 {
+    margin-top: 60px;
+  }
+  .dropdown-link {
+    padding-left: 30px;
+    text-align: left;
+  }
+  .dropdown-list.w--open {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .div-block-33 {
+    margin-left: 0px;
+  }
+  .heading-30.space {
+    margin-right: 0px;
+  }
+  .icon-2 {
+    font-size: 40px;
+  }
+  .menu-button {
+    height: 60px;
+    padding: 11px 10px;
+  }
+  .nav-menu {
+    width: 250px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background-image: linear-gradient(180deg, #fff, #fff);
+  }
+  .image-63 {
+    height: 60px;
+  }
+  .div-block-37 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .list {
+    padding-left: 20px;
+  }
+  .list-2 {
+    padding-left: 20px;
+  }
+  .section-44 {
+    margin-top: 60px;
+  }
+  .section-46 {
+    margin-top: 60px;
+  }
+  .dropdown {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    text-align: center;
+  }
+  .heading.contact {
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .button {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+  .button.contact {
+    margin-right: 0px;
+  }
+  .heading-3.centered {
+    margin-top: 20px;
+  }
+  .logos {
+    height: auto;
+  }
+  .column-5 {
+    height: 125px;
+  }
+  .image-2 {
+    margin-top: 43px;
+    margin-bottom: 43px;
+  }
+  .image-3 {
+    margin-top: 58px;
+    margin-bottom: 58px;
+  }
+  .engagements {
+    height: auto;
+    background-image: url('../images/pexels-photo-47426.jpeg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .paragraph-2 {
+    margin-bottom: 30px;
+  }
+  .paragraph-2.mini {
+    text-align: center;
+  }
+  .paragraph-2.nospace {
+    width: auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .paragraph-2.centered {
+    width: auto;
+  }
+  .section-7 {
+    height: auto;
+  }
+  .row-5 {
+    height: auto;
+  }
+  .column-9 {
+    height: auto;
+    padding-right: 10px;
+  }
+  .column-10 {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .form {
+    text-align: center;
+  }
+  .heading-8 {
+    text-align: center;
+  }
+  .text-block-2 {
+    text-align: center;
+  }
+  .column-25 {
+    display: none;
+  }
+  .section-16 {
+    background-color: #fff;
+  }
+  .column-31 {
+    display: none;
+    height: auto;
+  }
+  .column-32 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .column-35 {
+    height: auto;
+  }
+  .column-37 {
+    height: auto;
+  }
+  .image-21 {
+    height: 40%;
+    margin-top: 30px;
+  }
+  .image-22 {
+    height: 30%;
+    margin-top: 30px;
+  }
+  .column-79 {
+    padding-top: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  }
+  .div-block-33 {
+    margin-left: 0px;
+  }
+  .column-80 {
+    display: none;
+  }
+  .div-block-34 {
+    margin-left: 0px;
+  }
+  .div-block-35 {
+    margin-right: 0px;
+  }
+  .heading-29 {
+    display: none;
+    margin-top: 0px;
+  }
+  .heading-30 {
+    margin-right: 0px;
+    text-align: center;
+  }
+  .heading-30.space {
+    text-align: center;
+  }
+  .column-82 {
+    text-align: center;
+  }
+  .column-83 {
+    text-align: center;
+  }
+  .column-84 {
+    text-align: center;
+  }
+  .textarea {
+    text-align: center;
+  }
+  .text-field {
+    text-align: center;
+  }
+  .text-field-2 {
+    text-align: center;
+  }
+  .text-field-3 {
+    text-align: center;
+  }
+  .image-63 {
+    margin-left: 5px;
+  }
+  .facebook-3 {
+    display: none;
+  }
+  .div-block-37 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .columns {
+    padding-top: 30px;
+  }
+  .footerlist {
+    text-align: center;
+  }
+  .text-block-10 {
+    text-align: justify;
+  }
+  .footercont {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .footerrow {
+    margin-top: 20px;
+  }
+  .footer {
+    margin-top: 10px;
+    padding: 10px 20px 20px;
+    border-top: 2px solid grey;
+  }
+  .column-96 {
+    text-align: center;
+  }
+  .column-98 {
+    display: none;
+  }
+  .heading-31 {
+    text-align: center;
+  }
+  .heading-32 {
+    text-align: center;
+  }
+  .heading-33 {
+    text-align: center;
+  }
+  .heading-34 {
+    text-align: center;
+  }
+  .column-99 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .column-100 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .column-101 {
+    padding-top: 30px;
+  }
+  .column-102 {
+    padding-top: 30px;
+  }
+  .column-105 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    margin: 0px 60px 50px;
+    font-size: 30px;
+  }
+  .heading.contact {
+    margin-top: 50px;
+  }
+  .button {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .section {
+    background-image: none;
+  }
+  .heading-3.centered.noir {
+    line-height: 38px;
+  }
+  .container-8 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+    background-image: linear-gradient(180deg, #000, #000);
+  }
+  .section-18 {
+    height: auto;
+  }
+  .row-10 {
+    height: auto;
+  }
+  .column-32 {
+    height: auto;
+  }
+  .column-37 {
+    height: auto;
+  }
+  .image-21 {
+    margin-top: 69px;
+  }
+  .image-22 {
+    margin-top: 85px;
+  }
+  .image-23 {
+    margin-top: 0px;
+  }
+  .column-80 {
+    display: none;
+  }
+  .heading-30 {
+    margin-top: 0px;
+  }
+}
+
